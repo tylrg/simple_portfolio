@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    // font-family: 'Kanit', sans-serif;
+    // font-family: 'Rubik', sans-serif;
+    // font-family: 'IBM Plex Sans', sans-serif;
+    //font-family: 'IBM Plex Mono', monospace; //like this one
+    // font-family: 'Varela', sans-serif;
+    // font-family: 'Archivo', sans-serif;
+    // font-family: 'Oxygen', sans-serif;
+    // font-family: 'Roboto Slab', serif; //yeah man
+    // font-family: 'Gelasio', serif;
+    // font-family: 'Public Sans', sans-serif;
+    color: #201E1F;
+    background-color: #FEEFDD;
+}
+
+a:link,a:visited { 
+    text-decoration: none; 
+    color:#5082C0;
+} 
+a:hover { 
+    text-decoration: none; 
+}
+
+
+// font-family: 'Kanit', sans-serif;
+// font-family: 'Rubik', sans-serif;
+// font-family: 'IBM Plex Sans', sans-serif;
+// font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Varela', sans-serif;
+// font-family: 'Archivo', sans-serif;
+// font-family: 'Oxygen', sans-serif;
+// font-family: 'Roboto Slab', serif;
+// font-family: 'Gelasio', serif;
+// font-family: 'Public Sans', sans-serif;
