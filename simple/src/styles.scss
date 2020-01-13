@@ -4,37 +4,80 @@ html, body { height: 100%; }
 body { 
     margin: 0; 
     text-align: center;
-    // font-family: 'Kanit', sans-serif;
-    // font-family: 'Rubik', sans-serif;
-    // font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'IBM Plex Mono', monospace; //like this one
-    // font-family: 'Varela', sans-serif;
-    // font-family: 'Archivo', sans-serif;
-    // font-family: 'Oxygen', sans-serif;
-    // font-family: 'Roboto Slab', serif; //yeah man
-    // font-family: 'Gelasio', serif;
-    // font-family: 'Public Sans', sans-serif;
-    font-size: 25px;
-    color: #201E1F;
-    background-color: #FEEFDD;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 35px;
+    //background-color: #0C0C0C;
+
+    
+    //background: linear-gradient(-90deg, #0C0C0C, #0C0C0C, #141414, #141414);
+    //background: linear-gradient(-135deg, #0C0C0C, #0C0C0C, #141414, #141414,#0C0C0C, #0C0C0C);
+    background: linear-gradient(-90deg, #0C0C0C, #0C0C0C, #161616, #161616,#0C0C0C, #0C0C0C);
+
+
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.name{
+    line-height: 10%;
+}
+
+.gabriel{
+    margin-top:0;
+}
+
+
+.content{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+h1{
+    color: #2176FF;
+    line-height: 40%;
+}
+h4{
+    color:#E3E0DD;
 }
 
 a:link,a:visited { 
     text-decoration: none; 
-    color:#5082C0;
+    color:#FE5F55;
 } 
 a:hover { 
     text-decoration: none; 
 }
 
 
-// font-family: 'Kanit', sans-serif;
-// font-family: 'Rubik', sans-serif;
-// font-family: 'IBM Plex Sans', sans-serif;
-// font-family: 'IBM Plex Mono', monospace;
-// font-family: 'Varela', sans-serif;
-// font-family: 'Archivo', sans-serif;
-// font-family: 'Oxygen', sans-serif;
-// font-family: 'Roboto Slab', serif;
-// font-family: 'Gelasio', serif;
-// font-family: 'Public Sans', sans-serif;
+
+
+/* Forward */
+.hvr-forward {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+  }
